@@ -1,12 +1,12 @@
 
-import './App.css';
+import { TextuseState } from './components/TextuseState'
+import { GetData } from './components/utils/getData'
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-
+      <TextuseState />
+      <GetData />
     </div>
-  );
+  )
 }
-
-export default App;
