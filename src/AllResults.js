@@ -15,7 +15,7 @@ export const AllResults = () => {
     return (
         <section>
             {<div>
-                <div>films:   {data.flims}  </div>    
+                <div>films:   {data.films}  </div>    
                 <div>people:   {data.people} </div>    
                 <div>planets: {data.planets}  </div>    
                 <div>species: {data.species}  </div>    
