@@ -21,7 +21,7 @@ function Nombres() {
             <section>
                 {personajes.results.map( (personaje) => {
                     return(
-                        <p>{personaje.name} </p>
+                        <p key={personaje.name}>{personaje.name} </p>
                     )
                 })}
             </section> 

@@ -16,9 +16,8 @@ function Busqueda({name}) {
             .then((data) => {
                 setPersonaje(data);
             })
-    }, [personaje])
+    },[])
 
-    console.log(personaje);
 
     return (
         <>

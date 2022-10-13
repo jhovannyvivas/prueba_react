@@ -4,7 +4,7 @@ import Busqueda from "./components/busqueda";
 function App() {
   return (
     <div className="App">
-      <Nombres />
+      <Nombres key={1} />
       <Busqueda name="luke" />
     </div>
   );
